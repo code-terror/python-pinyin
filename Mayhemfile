@@ -1,0 +1,6 @@
+project: code-terror/python-pinyin
+target: fuzzme
+
+cmds:
+  - cmd: python fuzzme.py
+    libfuzzer: true
