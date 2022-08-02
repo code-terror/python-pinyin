@@ -1,5 +1,5 @@
 project: python-pinyin
-target: fuzzme
+target: fuzz_pinyin
 
 cmds:
   - cmd: python fuzz_pinyin.py
